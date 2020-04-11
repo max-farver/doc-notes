@@ -1,79 +1,198 @@
 {
   "config": {
-    "title": "Coolest Library",
+    "title": "Self Help",
     "description": "A simple starter to get up and developing quickly with Gatsby",
     "menu": [
-      "Getting Started",
-      "Components"
+      "Home",
+      "Authentication",
+      "Databases",
+      "React",
+      "React - Hooks"
     ],
     "version": "0.1.0",
-    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "repository": "https://github.com/max-farver/doc-notes",
     "native": false,
     "themeConfig": {
       "mode": "dark"
     },
     "separator": "-",
-    "base": "/docs"
+    "ignore": [
+      "README.md"
+    ]
   },
   "entries": [
     {
-      "key": "README.md",
+      "key": "docs/index.md",
       "value": {
-        "id": "04c6e90faac2675aa89e2176d2eec7d8",
-        "filepath": "README.md",
-        "fullpath": "/home/mfarver/note-docs/doc-site/README.md",
-        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/README.md",
-        "hidden": false,
-        "slug": "readme",
-        "route": "/readme",
-        "name": "Readme",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "-quick-start",
-            "depth": 2,
-            "value": "🚀 Quick start"
-          },
-          {
-            "slug": "🧐-whats-inside",
-            "depth": 2,
-            "value": "🧐 What's inside?"
-          },
-          {
-            "slug": "-learning-gatsby",
-            "depth": 2,
-            "value": "🎓 Learning Gatsby"
-          },
-          {
-            "slug": "-deploy",
-            "depth": 2,
-            "value": "💫 Deploy"
-          }
-        ]
-      }
-    },
-    {
-      "key": "docs/index.mdx",
-      "value": {
-        "name": "Getting Started",
+        "name": "Home",
         "route": "/",
-        "id": "73498ad0e1e62a714b08085d318f9de1",
-        "filepath": "docs/index.mdx",
-        "fullpath": "/home/mfarver/note-docs/doc-site/docs/index.mdx",
-        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/index.mdx",
+        "id": "1a523bd9fa0dbf998008b37579210e12",
+        "filepath": "docs/index.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/index.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/index.md",
         "hidden": false,
         "slug": "docs-index",
         "menu": "",
         "headings": [
           {
-            "slug": "getting-started",
+            "slug": "source-of-truth",
             "depth": 1,
-            "value": "Getting Started"
+            "value": "Source of Truth"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/Authentication/FirsebaseAuth.md",
+      "value": {
+        "name": "Firebase",
+        "route": "/authentication/firebase",
+        "menu": "Authentication",
+        "id": "d176ba80921f4f9700b0e2b3d8af924b",
+        "filepath": "docs/Authentication/FirsebaseAuth.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/Authentication/FirsebaseAuth.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/Authentication/FirsebaseAuth.md",
+        "hidden": false,
+        "slug": "docs-authentication-firsebase-auth",
+        "headings": [
+          {
+            "slug": "firebase-auth-easiest",
+            "depth": 1,
+            "value": "Firebase Auth (easiest)"
           },
           {
-            "slug": "hello-world",
+            "slug": "firebase-console",
             "depth": 2,
-            "value": "Hello world"
+            "value": "Firebase Console"
+          },
+          {
+            "slug": "in-web-app",
+            "depth": 2,
+            "value": "In Web App"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/React/Context.md",
+      "value": {
+        "name": "Context",
+        "route": "/react/context",
+        "menu": "React",
+        "id": "28aca6481fcaa579f444daa8f5097596",
+        "filepath": "docs/React/Context.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/React/Context.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/React/Context.md",
+        "hidden": false,
+        "slug": "docs-react-context",
+        "headings": [
+          {
+            "slug": "context-for-global-state",
+            "depth": 1,
+            "value": "Context for Global State"
+          },
+          {
+            "slug": "create",
+            "depth": 2,
+            "value": "Create"
+          },
+          {
+            "slug": "use",
+            "depth": 2,
+            "value": "Use"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/React/Hooks/useCookie.md",
+      "value": {
+        "name": "useCookie",
+        "route": "/react/hooks/usecookie",
+        "menu": "React - Hooks",
+        "id": "ca14deacf2ad39ab9980707f0d3a5b11",
+        "filepath": "docs/React/Hooks/useCookie.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/React/Hooks/useCookie.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/React/Hooks/useCookie.md",
+        "hidden": false,
+        "slug": "docs-react-hooks-use-cookie",
+        "headings": [
+          {
+            "slug": "easy-way-to-work-with-cookies",
+            "depth": 1,
+            "value": "Easy way to work with cookies"
+          },
+          {
+            "slug": "code",
+            "depth": 2,
+            "value": "Code"
+          },
+          {
+            "slug": "use",
+            "depth": 2,
+            "value": "Use"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/React/Hooks/useHover.md",
+      "value": {
+        "name": "useHover",
+        "route": "/react/hooks/usehover",
+        "menu": "React - Hooks",
+        "id": "14cb42c5229b3700275a8a8dd120d421",
+        "filepath": "docs/React/Hooks/useHover.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/React/Hooks/useHover.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/React/Hooks/useHover.md",
+        "hidden": false,
+        "slug": "docs-react-hooks-use-hover",
+        "headings": [
+          {
+            "slug": "change-state-when-hovering-over-an-element-or-component",
+            "depth": 1,
+            "value": "Change state when hovering over an element or component"
+          },
+          {
+            "slug": "code",
+            "depth": 2,
+            "value": "Code"
+          },
+          {
+            "slug": "use",
+            "depth": 2,
+            "value": "Use"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/React/Hooks/useToggle.md",
+      "value": {
+        "name": "useToggle",
+        "route": "/react/hooks/usetoggle",
+        "menu": "React - Hooks",
+        "id": "3b17da5b576f2d793cc1e501aa449ffd",
+        "filepath": "docs/React/Hooks/useToggle.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/React/Hooks/useToggle.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/React/Hooks/useToggle.md",
+        "hidden": false,
+        "slug": "docs-react-hooks-use-toggle",
+        "headings": [
+          {
+            "slug": "simple-toggle",
+            "depth": 1,
+            "value": "Simple Toggle"
+          },
+          {
+            "slug": "code",
+            "depth": 2,
+            "value": "Code"
+          },
+          {
+            "slug": "use",
+            "depth": 2,
+            "value": "Use"
           }
         ]
       }
