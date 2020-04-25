@@ -68,6 +68,13 @@ module.exports = {
 }
 ```
 
+Replace build script in package.json with
+
+```
+"build": "next build && npx tailwindcss build styles/globalStyles.css -o styles/output.css",
+
+```
+
 Import your output css file in '\_document.js' to use it throughout the project.
 
 _Could possibly use original css file when in development environment for speed purposes_
