@@ -28,45 +28,67 @@ npm install firebase
 2. Paste this:
 
    ```javascript
-   import firebase from 'firebase/app';
-   import 'firebase/auth';
-   import 'firebase/firestore';
-   import { useState, useEffect } from 'react';
+   import firebase from "firebase/app"
+   import "firebase/auth"
+   import "firebase/firestore"
+   import { useState, useEffect } from "react"
 
    const firebaseConfig = {
      // your config here
-   };
+   }
 
    if (!firebase.apps.length) {
-     firebase.initializeApp(firebaseConfig);
+     firebase.initializeApp(firebaseConfig)
    }
 
    export const useAuth = () => {
      const [state, setState] = useState(() => {
-       const user = firebase.auth().currentUser;
-       return user;
-     });
+       const user = firebase.auth().currentUser
+       return user
+     })
      function onChange(user) {
-       setState(user);
+       setState(user)
      }
 
      useEffect(() => {
        // listen for auth state changes
-       const unsubscribe = firebase.auth().onAuthStateChanged(onChange);
+       const unsubscribe = firebase.auth().onAuthStateChanged(onChange)
        // unsubscribe to the listener when unmounting
-       return () => unsubscribe();
-     }, []);
+       return () => unsubscribe()
+     }, [])
 
-     return state;
-   };
+     return state
+   }
 
-   export const auth = firebase.auth;
+   export const auth = firebase.auth
    ```
 
 The above code initializes the firebase instance for your app and provides a useAuth() hook that allows you to easily get info about the currently logged in user.
 
 ```javascript
-const { user } = useAuth();
+const user = useAuth()
+```
+
+### Logging users in and out
+
+Login
+
+```javascript
+```
+
+Logout
+
+```javascript
+```
+
+Register
+
+```javascript
+```
+
+### Resetting Passwords
+
+```javascript
 ```
 
 **_Yes, it's that easy, don't question it_**
