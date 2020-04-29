@@ -19,8 +19,11 @@ stylint is more of a nice to have for vscode purposes
 
 ```css
 @import "tailwindcss/base";
+/* base styles */
 @import "tailwindcss/components";
+/* extracted components */
 @import "tailwindcss/utilities";
+/* new utility classes */
 ```
 
 ### Create Tailwind Config File

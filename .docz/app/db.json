@@ -7,7 +7,10 @@
       "Authentication",
       "Databases",
       "React",
-      "React - Hooks"
+      "React - Hooks",
+      "React - Components - Common",
+      "React - Components - Utils",
+      "React - Components - Layout"
     ],
     "version": "0.1.0",
     "repository": "https://github.com/max-farver/doc-notes",
@@ -66,9 +69,39 @@
             "value": "Firebase Console"
           },
           {
-            "slug": "in-web-app",
+            "slug": "client-side-auth",
             "depth": 2,
-            "value": "In Web App"
+            "value": "Client Side Auth"
+          },
+          {
+            "slug": "server-side-auth",
+            "depth": 2,
+            "value": "Server Side Auth"
+          },
+          {
+            "slug": "admin-setup",
+            "depth": 3,
+            "value": "Admin setup"
+          },
+          {
+            "slug": "api-routes",
+            "depth": 3,
+            "value": "Api Routes"
+          },
+          {
+            "slug": "client-side-of-ss-auth",
+            "depth": 3,
+            "value": "Client side of SS-auth"
+          },
+          {
+            "slug": "nextjs",
+            "depth": 3,
+            "value": "NextJS"
+          },
+          {
+            "slug": "todo",
+            "depth": 2,
+            "value": "TODO"
           }
         ]
       }
@@ -100,6 +133,42 @@
             "slug": "use",
             "depth": 2,
             "value": "Use"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/Styling/TailwindCSS.md",
+      "value": {
+        "name": "Tailwind CSS",
+        "route": "/styling/tailwind",
+        "menu": "Styling",
+        "id": "7666d0bd1e200d764c4d33b87d4bbe85",
+        "filepath": "docs/Styling/TailwindCSS.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/Styling/TailwindCSS.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/Styling/TailwindCSS.md",
+        "hidden": false,
+        "slug": "docs-styling-tailwind-css",
+        "headings": [
+          {
+            "slug": "tailwind-css",
+            "depth": 1,
+            "value": "Tailwind CSS"
+          },
+          {
+            "slug": "main-css-file",
+            "depth": 3,
+            "value": "Main CSS File"
+          },
+          {
+            "slug": "create-tailwind-config-file",
+            "depth": 3,
+            "value": "Create Tailwind Config File"
+          },
+          {
+            "slug": "nextjs",
+            "depth": 2,
+            "value": "NextJS"
           }
         ]
       }
@@ -193,6 +262,115 @@
             "slug": "use",
             "depth": 2,
             "value": "Use"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/React/Components/Common/Modal.md",
+      "value": {
+        "name": "Modal",
+        "route": "/react/modal",
+        "menu": "React - Components - Common",
+        "id": "774a4052eff83c487cb88ac2fa67a4ba",
+        "filepath": "docs/React/Components/Common/Modal.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/React/Components/Common/Modal.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/React/Components/Common/Modal.md",
+        "hidden": false,
+        "slug": "docs-react-components-common-modal",
+        "headings": [
+          {
+            "slug": "modal",
+            "depth": 1,
+            "value": "Modal"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/React/Components/Layout/Footer.md",
+      "value": {
+        "name": "Footer",
+        "route": "/react/footer",
+        "menu": "React - Components - Layout",
+        "id": "48521eefdd3cbc8713d3cc963ae08877",
+        "filepath": "docs/React/Components/Layout/Footer.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/React/Components/Layout/Footer.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/React/Components/Layout/Footer.md",
+        "hidden": false,
+        "slug": "docs-react-components-layout-footer",
+        "headings": [
+          {
+            "slug": "footer-placement",
+            "depth": 1,
+            "value": "Footer Placement"
+          },
+          {
+            "slug": "general-idea",
+            "depth": 2,
+            "value": "General Idea"
+          },
+          {
+            "slug": "nextjs",
+            "depth": 2,
+            "value": "NextJS"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/React/Components/Layout/HamburgerMenu.md",
+      "value": {
+        "name": "Hamburger Menu",
+        "route": "/react/hamburger-menu",
+        "menu": "React - Components - Layout",
+        "id": "5fbabaf44b1ac42bbef9bc17300491c2",
+        "filepath": "docs/React/Components/Layout/HamburgerMenu.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/React/Components/Layout/HamburgerMenu.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/React/Components/Layout/HamburgerMenu.md",
+        "hidden": false,
+        "slug": "docs-react-components-layout-hamburger-menu",
+        "headings": [
+          {
+            "slug": "hamburger-menu",
+            "depth": 1,
+            "value": "Hamburger Menu"
+          },
+          {
+            "slug": "menu",
+            "depth": 2,
+            "value": "Menu"
+          },
+          {
+            "slug": "button",
+            "depth": 2,
+            "value": "Button"
+          },
+          {
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/React/Components/Utils/NextJSImages.md",
+      "value": {
+        "name": "NextJS Images",
+        "route": "/react/next-optimized-images",
+        "menu": "React - Components - Utils",
+        "id": "9b1ba7da38fedd459c546afa259d8d30",
+        "filepath": "docs/React/Components/Utils/NextJSImages.md",
+        "fullpath": "/home/mfarver/note-docs/doc-site/docs/React/Components/Utils/NextJSImages.md",
+        "link": "https://github.com/max-farver/doc-notes/edit/master/docs/React/Components/Utils/NextJSImages.md",
+        "hidden": false,
+        "slug": "docs-react-components-utils-next-js-images",
+        "headings": [
+          {
+            "slug": "optimized-images-in-nextjs",
+            "depth": 1,
+            "value": "Optimized Images in NextJS"
           }
         ]
       }
